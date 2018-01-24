@@ -65,10 +65,6 @@ h2 {
     /* text-transform: uppercase; */
 }
 
-.navbar-toggler .color_black {
-    color: black;
-}
-
 @media (min-width: 992px) {
     #sideNav {
         text-align: center;
@@ -101,8 +97,9 @@ h2 {
         flex-direction: column;
         width: 100%;
     }
-    #sideNav .navbar-collapse .navbar-nav .nav-item {
+    #sideNav .navbar-collapse .navbar-nav .nav-item :hover {
         display: block;
+        color: red !important;
     }
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
@@ -111,7 +108,7 @@ h2 {
 
 section.resume-section {
     border-bottom: 1px solid #dee2e6;
-    padding-top: 15rem !important;
+    padding-top: 22rem !important;
     padding-bottom: 0 !important;
 }
 
