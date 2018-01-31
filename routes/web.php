@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/template', function () {
+    return view('template');
+})->name('template');
+// Route::get('/picture', function () {
+//     return view('picture');
+// });
+// Route::get('/caption', function () {
+//     return view('caption');
+// });

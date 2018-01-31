@@ -13,7 +13,7 @@
                 <a class="nav-link js-scroll-trigger" href="#education">Lorem Ipsum 3</a>
             </li>
             <li><br /><br />
-                <a class="btn btn-danger" href="template.html">Take a Stand</a>
+                <a class="btn btn-danger" href="{{route('template')}}">Take a Stand</a>
             </li>
         </ul>
     </div>
