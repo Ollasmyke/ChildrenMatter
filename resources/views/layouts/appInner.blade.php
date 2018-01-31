@@ -1,5 +1,5 @@
 @extends('layouts.father')
 @section('sidebar')
-    @include('partials.sidebarIndex')
+    @include('partials.sidebar')
 @endsection
 

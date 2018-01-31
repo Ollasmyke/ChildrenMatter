@@ -13,14 +13,15 @@
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/template', function () {
     return view('template');
 })->name('template');
-// Route::get('/picture', function () {
-//     return view('picture');
-// });
-// Route::get('/caption', function () {
-//     return view('caption');
-// });
+
+Route::get('/picture', function () {
+    return view('picture');
+})-> name('picture');
+Route::get('/caption', function () {
+    return view('caption');
+})-> name('caption');
